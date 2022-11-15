@@ -13,7 +13,7 @@ tf.config.set_logical_device_configuration(
 # set random seed for python, numpy and tensorflow
 keras.utils.set_random_seed(42)
 
-EPOCHS = 3
+EPOCHS = 50
 # loading train dataset
 train_ds = training_dataset('./dataset/training')
 
